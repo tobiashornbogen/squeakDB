@@ -1,0 +1,16 @@
+GSMetadata {
+	#version : 1,
+	#mappers : [
+		GSTonelMapper {
+			#version : 1,
+			#isTracked : true,
+			#package : MCPackage {
+				#name : 'KeyValueStore'
+			},
+			#path : FSAbsolutePath [
+				'src'
+			]
+		}
+	],
+	#name : 'keyValueStore'
+}
